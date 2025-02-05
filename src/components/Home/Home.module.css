@@ -3,7 +3,6 @@
     background-size: cover;
     background-repeat: no-repeat;                  
     background-position: center center;          
-    background-attachment: fixed;  
     min-height: 100vh;
     flex-direction: column;
     display: flex;
@@ -24,9 +23,11 @@
     margin-bottom: 15px;  
     font-size: 46px;
     font-weight: 400;
+    color: #fff;
   }
 
   .content p {
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
+    color: #fff;
   }

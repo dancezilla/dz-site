@@ -1,13 +1,15 @@
 import "./App.css";
-import Header from "./components/Header/Header";
+import Content from "./components/Content/Content";
 import Home from "./components/Home/Home";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
     <div className="App">
       <main>
         <Home />
-        <section></section>
+        <Content />
+        <Gallery />
         <footer></footer>
       </main>
     </div>

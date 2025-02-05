@@ -1,0 +1,15 @@
+.howItWorks {
+    margin-top: 100px;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: nowrap; /* Либо wrap и поставить фикс w/h в ruleBlock.css для блока, но будут сьезжать автоматом*/
+    gap: 50px;
+    justify-content: center; 
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
