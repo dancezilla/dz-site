@@ -1,4 +1,4 @@
-import styles from "./RuleBlock.module.css";
+import styles from "./RuleBlock.module.scss";
 
 export default function RuleBlock({
   step,

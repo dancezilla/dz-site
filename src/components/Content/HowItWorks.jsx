@@ -1,4 +1,4 @@
-import styles from "./HowItWorks.module.css";
+import styles from "./HowItWorks.module.scss";
 import RuleBlock from "./components/RuleBlock";
 
 export function HowItWorks() {

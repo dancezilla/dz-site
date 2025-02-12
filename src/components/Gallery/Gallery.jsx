@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import styles from "./Gallery.module.css";
+import { useState } from "react";
+import styles from "./Gallery.module.scss";
 import { images } from "./images";
 
 export default function Gallery() {
