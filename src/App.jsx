@@ -1,8 +1,9 @@
-import Content from "./components/Content/Content";
+import { Content } from "./components/Content/Content";
 import { Home } from "./components/Home/Home";
-import Gallery from "./components/Gallery/Gallery";
+import { Gallery } from "./components/Gallery/Gallery";
+import "./App.scss";
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <main>
@@ -14,5 +15,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

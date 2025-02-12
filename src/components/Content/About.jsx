@@ -1,6 +1,6 @@
 import styles from "./About.module.scss";
 
-export default function About() {
+export function About() {
   return (
     <section id="about" className={styles.about}>
       <h1>Why This App?</h1>

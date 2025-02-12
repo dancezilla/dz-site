@@ -6,10 +6,54 @@
     display: flex;
     flex-wrap: nowrap; /* Либо wrap и поставить фикс w/h в ruleBlock.css для блока, но будут сьезжать автоматом*/
     gap: 50px;
-    justify-content: center; 
+    justify-content: center;
+
+    & > div:nth-child(even) {
+        background-color: #ff9d27;
+    }
+    
+    & > div:nth-child(even) > p.step {
+        color: #ffffff;
+    } 
 }
 
 h1 {
     font-size: 36px;
     font-weight: 700;
+}
+
+.block {
+    margin-top: 50px;
+    width: 22%;
+   /* width: 280px;
+    height: 306px;*/
+    padding: 0 30px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+
+  
+.step {
+    font-size: 22px;
+    color: #FF9D27;
+    padding-top: 30px;
+}
+
+
+
+h2 {
+    font-size: 22px;
+    color: #000000;
+}
+  
+p {
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+.description {
+    color: black
 }
