@@ -1,55 +1,51 @@
 .galleryBlock {
-    margin: 100px 80px 80px 80px;
+  margin: 100px 80px 80px 80px;
 }
 
 h1 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 .contentBlock {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
-  
 
 .imagesBlock {
-    display: flex;
-    overflow: visible; 
-    width: 100%; 
-    transition: transform 0.5s ease-in-out;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  overflow: visible;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+  justify-content: center;
+  gap: 10px;
 }
-  
- 
+
 .image {
-    width: 362px; 
-    height: 368px; 
-    object-fit: cover; 
-    margin: 5px; 
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+  width: 362px;
+  height: 368px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .image:hover {
-    transform: scale(1.2);
-    
+  transform: scale(1.2);
 }
-  
-  
+
 .arrow {
-    background-color: transparent;
-    font-size: 40px;
-    color: rgb(0, 0, 0); 
-    display: flex;
-    border:none;
-    cursor: pointer
+  background-color: transparent;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  border: none;
+  cursor: pointer;
 }
-  
+
 .arrow:hover {
-    color: #FF9D27;
+  color: #ff9d27;
 }

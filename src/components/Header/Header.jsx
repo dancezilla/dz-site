@@ -9,13 +9,13 @@ export function Header() {
       <nav>
         <ul className={styles.navList}>
           <li className={styles.navItem}>
-            <a href="#about">About</a>
+            <a href='#about'>About</a>
           </li>
           <li className={styles.navItem}>
-            <a href="#gallery">Gallery</a>
+            <a href='#gallery'>Gallery</a>
           </li>
           <li className={styles.navItem}>
-            <a href="#faq">FAQ</a>
+            <a href='#faq'>FAQ</a>
           </li>
         </ul>
       </nav>

@@ -27,12 +27,7 @@ export function Gallery() {
         </button>
         <div className={styles.imagesBlock}>
           {images.slice(index, index + visibleImages).map((img, i) => (
-            <img
-              key={`${index}-${i}`}
-              src={img}
-              alt={`Images ${i}`}
-              className={styles.image}
-            />
+            <img key={`${index}-${i}`} src={img} alt={`Images ${i}`} className={styles.image} />
           ))}
         </div>
         <button onClick={nextSlide} className={styles.arrow}>

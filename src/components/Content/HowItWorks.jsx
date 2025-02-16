@@ -10,20 +10,17 @@ const blocks = [
   {
     step: "Step 2:",
     title: "Start Judging",
-    description:
-      "With a single tap, select the competition and dive into the evaluation process.",
+    description: "With a single tap, select the competition and dive into the evaluation process.",
   },
   {
     step: "Step 3:",
     title: "Score Effortlessly",
-    description:
-      "One tap, and the scores are locked in. The app takes care of all the calculations for you.",
+    description: "One tap, and the scores are locked in. The app takes care of all the calculations for you.",
   },
   {
     step: "Step 4:",
     title: "Get Instant Results",
-    description:
-      "Final scores and rankings appear immediately. Fast. Accurate. Flawless.",
+    description: "Final scores and rankings appear immediately. Fast. Accurate. Flawless.",
   },
 ];
 export function HowItWorks() {
