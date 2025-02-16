@@ -1,5 +1,5 @@
-import { Header } from "../Header/Header";
-import styles from "../Home/Home.module.scss";
+import { Header } from "@/components/Header/Header";
+import styles from "./Home.module.scss";
 
 export function Home() {
   return (

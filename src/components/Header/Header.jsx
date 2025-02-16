@@ -1,4 +1,4 @@
-import styles from "../Header/Header.module.scss";
+import styles from "./Header.module.scss";
 
 export function Header() {
   return (

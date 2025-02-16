@@ -1,7 +1,7 @@
-import { Content } from "./components/Content/Content";
-import { Home } from "./components/Home/Home";
-import { Gallery } from "./components/Gallery/Gallery";
-import "./App.scss";
+import { Content } from "@/components/Content/Content";
+import { Home } from "@/components/Home/Home";
+import { Gallery } from "@/components/Gallery/Gallery";
+import "@/App.scss";
 
 export function App() {
   return (
