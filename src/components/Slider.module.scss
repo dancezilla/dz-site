@@ -1,0 +1,16 @@
+.phoneMockup {
+    position: relative;
+    width: 360px; /* Ширина телефона */
+    height: 720px; /* Высота телефона */
+    background: url('https://mockuphone.com/images/devices_picture/apple-iphone14plus-blue-portrait.png') no-repeat center/contain; /* Картинка мокапа */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .phoneScreen img{
+    width: 280px; /* Размер экрана */
+    height: 550px;
+    overflow: hidden;
+    border-radius: 30px; /* Закругленные края как у телефона */
+  }
