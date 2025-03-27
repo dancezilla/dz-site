@@ -12,14 +12,20 @@ export function Header() {
             <a href='#about'>About</a>
           </li>
           <li className={styles.navItem}>
+            <a href='#pricing'>Pricing</a>
+          </li>
+          <li className={styles.navItem}>
             <a href='#gallery'>Gallery</a>
           </li>
           <li className={styles.navItem}>
-            <a href='#faq'>FAQ</a>
+            <a href='#docs'>Docs</a>
           </li>
         </ul>
       </nav>
-      <button className={styles.buttonGetApp}>Get App</button>
+      <div className={styles.buttonsSection}>
+        <button className={styles.buttons}>GET APP</button>
+        <button className={styles.buttons}>SIGN IT</button>
+      </div>
     </header>
   );
 }
