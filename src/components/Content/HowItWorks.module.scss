@@ -3,6 +3,7 @@
 }
 
 .blocks {
+  margin-top: 50px;
   display: flex;
   flex-wrap: nowrap; /* Либо wrap и поставить фикс w/h в ruleBlock.css для блока, но будут сьезжать автоматом*/
   gap: 50px;
@@ -23,7 +24,6 @@ h1 {
 }
 
 .block {
-  margin-top: 50px;
   width: 22%;
   /* width: 280px;
     height: 306px;*/

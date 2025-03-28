@@ -14,8 +14,8 @@ export function About() {
       </p>
       <div className={styles.images}>
         <div className={styles.BlockFirst}>
-          <img className={styles.FirstImg} src='fest1.jpeg' alt='Photo-1' />
-          <img className={styles.SecondtImg} src='fest1.jpeg' alt='Photo-1' />
+          <img className={styles.FirstImg} src='slider2.jpeg' alt='Photo-1' />
+          <img className={styles.SecondtImg} src=' fest1.jpeg' alt='Photo-1' />
         </div>
       </div>
     </section>
