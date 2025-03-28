@@ -13,8 +13,6 @@ const PhoneMockupSlider = () => {
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={10}
           slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
           loop
           autoplay={{
             delay: 2500,
@@ -25,10 +23,19 @@ const PhoneMockupSlider = () => {
             <img src='public/screen.png' alt='Screen' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src='https://masterpiecer-images.s3.yandex.net/5fd531dca6427c7:upscaled' alt='Slide 2' />
+            <img src='public/screen2.png' alt='Slide 2' />
           </SwiperSlide>
           <SwiperSlide>
-            <img src='https://masterpiecer-images.s3.yandex.net/5fd531dca6427c7:upscaled' alt='Slide 3' />
+            <img src='public/screen3.png' alt='Slide 3' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='public/screen4.png' alt='Slide 3' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='public/screen5.png' alt='Slide 3' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='public/screen6.png' alt='Slide 3' />
           </SwiperSlide>
         </Swiper>
       </div>
