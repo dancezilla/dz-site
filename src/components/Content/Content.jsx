@@ -4,7 +4,7 @@ import { HowItWorks } from "./HowItWorks";
 
 export function Content() {
   return (
-    <section className={styles.content}>
+    <section className={`container ${styles.content}`}>
       <About />
       <HowItWorks />
     </section>
