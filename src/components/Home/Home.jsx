@@ -20,7 +20,7 @@ export function Home() {
       <div className={styles.home}>
         <Header />
         <div className={styles.wrapper}>
-          <div className={styles.content}>
+          <div className={`container ${styles.content}`}>
             <h1>Judging, Simplified</h1>
             <p>One tap. Fast results. No hassle.</p>
             <button className={styles.button}>TRY IT</button>

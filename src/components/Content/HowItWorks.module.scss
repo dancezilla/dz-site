@@ -1,5 +1,6 @@
+
 .howItWorks {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .blocks {
@@ -10,17 +11,18 @@
   justify-content: center;
 
   & > div:nth-child(even) {
-    background-color: #ff9d27;
+    background-color: #ECD06F;
   }
 
   & > div:nth-child(even) > p.step {
-    color: #ffffff;
+    color: #000000;
   }
 }
 
-h1 {
-  font-size: 36px;
+.header {
+  font-size: 45px;
   font-weight: 700;
+  margin-bottom: 70px;
 }
 
 .block {
@@ -29,14 +31,13 @@ h1 {
     height: 306px;*/
   padding: 0 30px;
   background-color: #f1f1f1;
-  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   text-align: left;
 }
 
 .step {
   font-size: 22px;
-  color: #ff9d27;
+  color: #000000;
   padding-top: 30px;
 }
 

@@ -25,11 +25,8 @@ const blocks = [
 ];
 export function HowItWorks() {
   return (
-    <section className={styles.howItWorks}>
-      <h1>
-        ALL LOGIC. <br />
-        NO NOISE.
-      </h1>
+    <section className={`container ${styles.howItWorks}`}>
+      <h1 className={styles.header}>ALL LOGIC. NO NOISE.</h1>
 
       <div className={styles.blocks}>
         {blocks.map((block, i) => (
