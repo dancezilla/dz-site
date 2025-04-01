@@ -25,7 +25,9 @@ export function Home() {
             <p>One tap. Fast results. No hassle.</p>
             <button className={styles.button}>TRY IT</button>
           </div>
-          <MySlider />
+          <div className={styles.slider}>
+            <MySlider />
+          </div>
         </div>
       </div>
     </section>
