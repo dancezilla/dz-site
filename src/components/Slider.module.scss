@@ -1,31 +1,15 @@
-.phoneMockup {
-    position: relative;
-    width: 450px; 
-    height: 520px; 
-    background: url('https://mockuphone.com/images/devices_picture/apple-iphone14plus-blue-portrait.png') no-repeat center/contain; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 280px;
-    margin-top: 50px
-  }
+.swiper {
+  width: 100%;
+  height: 100%;
 
-  .phoneScreen {
-    position: absolute;
-    top: 40px;        
-    width: 220px;
-    height: 450px;
-    overflow: hidden;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  :global(.swiper-slide) {
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
-  
-  .phoneScreen img{
-    width: 215px; 
-    height: 460px;
-    overflow: hidden;
-    border-radius: 30px;
-    
-  }
+}
