@@ -32,7 +32,7 @@ export function HowItWorks() {
         {blocks.map((block, i) => (
           <div key={i} className={`${styles.block} `}>
             <p className={styles.step}>{block.step}</p>
-            <h2>{block.title}</h2>
+            <h2 className={styles.title}>{block.title}</h2>
             <p className={styles.description}>{block.description}</p>
           </div>
         ))}
