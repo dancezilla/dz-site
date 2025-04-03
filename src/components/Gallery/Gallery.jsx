@@ -20,7 +20,7 @@ export function Gallery() {
 
   return (
     <div className={styles.galleryBlock}>
-      <h1>Discover our app in action</h1>
+      <h1 className={styles.titleName}>Discover our app in action</h1>
       <div className={styles.contentBlock}>
         <button onClick={prevSlide} className={styles.arrow}>
           ❮
