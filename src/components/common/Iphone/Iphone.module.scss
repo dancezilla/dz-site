@@ -1,13 +1,8 @@
-.iphoneWrapper {
+.iphoneContainer {
   transform: scale(0.8);
-  height: 0;
   overflow: visible; 
   padding-top: 50px;
   margin-right: 200px;
-  
-}
-
-.iphoneContainer {
   position: relative;
   width: 390px;
   height: 844px;
@@ -27,7 +22,7 @@
   top: 10px;
   left: 13px;
   width: 364px;
-  height: 60px;
+  height: 70px;
   overflow: hidden;
   border-radius: 62px 62px 0 0;
   background: #fff;

@@ -28,19 +28,3 @@ export function About() {
     </section>
   );
 }
-
-/* <div className={styles.textBlockFirst}>
-        <img className={styles.firstImg} src='gallery1.png' alt='Photo-1' />
-      </div> */
-/* <div className={styles.textBlockSecond}>
-        <p className={styles.descriptionApp}>
-          <span className={styles.highlightedSentence}>Our app isn’t just a tool </span> — it’s a new era in dance
-          evaluation. Forget paper, pens, and endless calculations. With a single tap, you record scores, and the
-          technology takes care of the rest.
-          <br />
-          <span className={styles.highlightedSentence}> Fast. Flawless. Effortless.</span>
-          This isn’t just convenience — it’s the standard of the future, available today.
-        </p>
-
-        <img className={styles.secondtImg} src=' fest1.jpeg' alt='Photo-1' />
-      </div> */

@@ -1,20 +1,8 @@
 import { Header } from "@/components/Header/Header";
 import styles from "./Home.module.scss";
-import { useState, useEffect } from "react";
-import MySlider from "../Slider";
+import PhoneMockupSlider from "../Slider";
 
 export function Home() {
-  const images = ["/BgHome1.png", "/gallery1.png"];
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const nextSlide = () => {
-    setCurrentIndex(prevIndex => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-  };
-  useEffect(() => {
-    const intervalId = setInterval(nextSlide, 3000);
-    return () => clearInterval(intervalId);
-  }, []);
-
   return (
     <section>
       <div className={styles.home}>
@@ -26,7 +14,7 @@ export function Home() {
             <button className={styles.button}>TRY IT</button>
           </div>
           <div className={styles.slider}>
-            <MySlider />
+            <PhoneMockupSlider />
           </div>
         </div>
       </div>
