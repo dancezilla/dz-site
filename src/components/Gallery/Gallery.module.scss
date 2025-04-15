@@ -2,10 +2,12 @@
   margin: 100px 80px 80px 80px;
 }
 
-h1 .titleName{
+h1 { 
+  &.titleName{
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 50px;
+  }
 }
 
 .contentBlock {
@@ -31,11 +33,13 @@ h1 .titleName{
   margin: 5px;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
+
+  &.image:hover {
+    transform: scale(1.2);
+  }
 }
 
-.image:hover {
-  transform: scale(1.2);
-}
+
 
 .arrow {
   background-color: transparent;
@@ -44,8 +48,10 @@ h1 .titleName{
   display: flex;
   border: none;
   cursor: pointer;
+
+  &.arrow:hover {
+    color: #ff9d27;
+  }
 }
 
-.arrow:hover {
-  color: #ff9d27;
-}
+

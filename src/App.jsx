@@ -1,6 +1,7 @@
-import { Content } from "@/components/Content/Content";
 import { Home } from "@/components/Home/Home";
 import { Gallery } from "@/components/Gallery/Gallery";
+import { About } from "./components/Content/About";
+import { HowItWorks } from "./components/Content/HowItWorks";
 import "@/App.scss";
 
 export function App() {
@@ -8,7 +9,8 @@ export function App() {
     <div className='App'>
       <main>
         <Home />
-        <Content />
+        <About />
+        <HowItWorks />
         <Gallery />
         <footer></footer>
       </main>
