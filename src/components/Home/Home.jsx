@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header/Header";
 import styles from "./Home.module.scss";
-import PhoneMockupSlider from "../Slider";
+// import PhoneMockupSlider from "../common/Slider/Slider";
+import PhoneMockupSlider from "./PhoneMockupSlider";
 
 export function Home() {
   return (
