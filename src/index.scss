@@ -64,23 +64,34 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+:root {
+  --spacing: 0.25rem;
+}
+
 .container {
   width: 100%;
+  @media (width >= 40rem /* 640px */) {
+    max-width: 40rem /* 640px */;
+  }
+  @media (width >= 48rem /* 768px */) {
+    max-width: 48rem /* 768px */;
+  }
+  @media (width >= 64rem /* 1024px */) {
+    max-width: 64rem /* 1024px */;
+  }
+  @media (width >= 80rem /* 1280px */) {
+    max-width: 80rem /* 1280px */;
+  }
+  @media (width >= 96rem /* 1536px */) {
+    max-width: 96rem /* 1536px */;
+  }
+}
+.container {
   margin-right: auto;
-  margin-left:auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  // Breakpoints matching Tailwind's default container
-  @media (min-width: 640px) {
-    max-width: 640px;
-  }
-  @media (min-width: 768px) {
-    max-width: 768px;
-  }
-  @media (min-width: 1024px) {
-    max-width: 1024px;
-  }
-  @media (min-width: 1280px) {
-    max-width: 1280px;
+  margin-left: auto;
+  padding-inline: calc(var(--spacing) * 4) /* 1rem = 16px */;
+  @media (width >= 40rem /* 640px */) {
+    padding-inline: calc(var(--spacing) * 6) /* 1.5rem = 24px */;
   }
 }
