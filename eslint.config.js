@@ -9,9 +9,9 @@ import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
  * @type {import("eslint").Linter.Config[]}
  */
 const config = [
-  { ignores: ["dist"] },
   {
-    files: ["**/*.{js,jsx}"],
+    ignores: ["dist"],
+    files: ["src/**/*.{js,jsx,ts,tsx}"],
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
@@ -35,6 +35,7 @@ const config = [
       "react/jsx-no-target-blank": "off",
       "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
       "react/prop-types": "off",
+      "no-restricted-exports": ["error", { restrictDefaultExports: { direct: true } }],
       "prettier/prettier": [
         "error",
         {
