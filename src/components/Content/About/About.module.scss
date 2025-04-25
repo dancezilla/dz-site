@@ -46,11 +46,10 @@
   }
 
   &:hover {
-    transform: translateY(-6px); // чуть приподнимаем
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); // делаем тень глубже
 
     img {
-      transform: scale(1.05); // зумим картинку слегка
+      transform: scale(1.10); // зумим картинку слегка
     }
   }
 }

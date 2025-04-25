@@ -5,35 +5,22 @@ import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import styles from "./Slider.module.scss";
 
-export const Slider = () => {
-  const slides = [
-    "/slider/screen.png",
-    "/slider/Screen2.png",
-    "/slider/Screen3.png",
-    "/slider/Screen4.png",
-    "/slider/Screen5.png",
-    "/slider/Screen6.png",
-  ];
-
+export const Slider = ({ slides, slidesView }) => {
   return (
     <Swiper
       className={styles.swiper}
       modules={[Navigation, Pagination, Autoplay]}
       spaceBetween={10}
-      slidesPerView={1}
+      slidesPerView={slidesView}
       loop
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
       }}
     >
-      {slides.map((src, index) => (
-        <SwiperSlide key={index}>
-          <img src={src} alt={`Slide ${index + 1}`} />
-        </SwiperSlide>
+      {slides.map((slide, index) => (
+        <SwiperSlide key={index}>{slide}</SwiperSlide>
       ))}
     </Swiper>
   );
 };
-
-export default Slider;
