@@ -27,7 +27,6 @@ export function HowItWorks() {
   return (
     <section className={`container ${styles.howItWorks}`}>
       <h1 className={styles.header}>ALL LOGIC. NO NOISE.</h1>
-
       <div className={styles.blocks}>
         {blocks.map((block, i) => (
           <div key={i} className={`${styles.block} `}>
