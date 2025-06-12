@@ -50,3 +50,68 @@
 }
 
 
+@media (max-width: 768px) {
+  .home {
+    background-color: #000000;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    width: 220px;
+    height: 54px;
+    background: url("/home/animButton.gif");
+    background-size: cover;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    width: 100%;
+  
+    
+    & > :global(div) {
+      margin: 0 auto;
+      max-width: 375px;
+      width: 100%;
+    }
+  }
+  
+
+  
+}
