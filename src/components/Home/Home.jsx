@@ -12,7 +12,15 @@ export function Home() {
           <div className={`container ${styles.content}`}>
             <h1>Judging, Simplified</h1>
             <p>One tap. Fast results. No hassle.</p>
-            <button className={styles.button}>TRY IT</button>
+            <button
+              onClick={() =>
+                (window.location.href =
+                  "mailto:zntu1995@gmail.com?subject=Interested%20in%20working%20with%20us%3F%20Share%20your%20request%20and%20contact%20details%20%E2%80%94%20we%E2%80%99ll%20get%20in%20touch%20soon.")
+              }
+              className={styles.button}
+            >
+              TRY IT
+            </button>
           </div>
           <div className={styles.slider}>
             <PhoneMockupSlider />

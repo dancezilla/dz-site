@@ -2,6 +2,7 @@ import { Home } from "@/components/Home/Home";
 // import { Gallery } from "@/components/Gallery/Gallery";
 import { About } from "./components/content/About/About";
 import { HowItWorks } from "./components/content/HowItWorks/HowItWorks";
+import { Footer } from "./components/Footer/Footer";
 import "@/App.scss";
 
 export function App() {
@@ -12,7 +13,7 @@ export function App() {
         <About />
         <HowItWorks />
         {/* <Gallery /> */}
-        <footer></footer>
+        <Footer />
       </main>
     </div>
   );
