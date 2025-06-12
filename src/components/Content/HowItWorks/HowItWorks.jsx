@@ -35,7 +35,7 @@ const blocks = [
 ];
 export function HowItWorks() {
   return (
-    <section className={styles.howItWorks}>
+    <section id='overview' className={styles.howItWorks}>
       <div className='container'>
         <h1 className={styles.header}>ALL LOGIC. NO NOISE.</h1>
         <div className={styles.blocks}>
