@@ -13,16 +13,16 @@ export function About() {
       </div>
       <div className={styles.galleryGrid}>
         <div className={styles.card}>
-          <img className={styles.firstImg} src='/about/fest5.jpeg' alt='Photo-1' />
+          <img className={styles.firstImg} src='/about/fest5.avif' alt='Photo-1' />
         </div>
         <div className={`${styles.card} ${styles.wide}`}>
-          <img className={styles.firstImg} src='/about/1.jpeg' alt='Photo-1' />
+          <img className={styles.firstImg} src='/about/1.avif' alt='Photo-1' />
         </div>
         <div className={`${styles.card} ${styles.wide}`}>
-          <img className={styles.firstImg} src='/about/img3.jpeg' alt='Photo-1' />
+          <img className={styles.firstImg} src='/about/img3.avif' alt='Photo-1' />
         </div>
         <div className={styles.card}>
-          <img className={styles.firstImg} src='/about/fest2.jpeg' alt='Photo-1' />
+          <img className={styles.firstImg} src='/about/fest2.avif' alt='Photo-1' />
         </div>
       </div>
     </section>
